@@ -1,0 +1,8 @@
+.header { background:url(images/header_top_bg.gif) repeat-x #425e66; text-align:right; }
+.footer {
+clear: both;
+background: url(images/footer_bg.gif) repeat-x #e6e6e6;
+padding: 105px 2.8em 2.8em 2.8em;
+font-size: .95em;
+text-align: center;
+}
