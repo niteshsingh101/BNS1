@@ -5,7 +5,7 @@ include("../include/config.php");
 include("../include/functions.php");
 		
 		
-  $query= mysql_query("Select * from tbl_content where id=1");
+  $query= mysql_query("Select * from tbl_content where id=2");
   $result= array();
   $row= mysql_fetch_assoc($query);
   $result[]= $row;

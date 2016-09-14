@@ -6,8 +6,12 @@
     Base template (without user's data) checked by http://validator.w3.org : "This page is valid XHTML 1.0 Transitional"
     -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
     <title>Home</title>
 
 
@@ -20,3 +24,26 @@
     <script type="text/javascript" src="javascript/script.js"></script>
 
 </head>
+<body ng-app="Myapp">
+<div id="art-main" >
+    <div class="cleared reset-box"></div>
+<div class="art-bar art-nav">
+<div class="art-nav-outer">
+<div class="art-nav-wrapper">
+<div class="art-nav-inner">
+	<ul class="art-hmenu">
+		<li>
+			<a href="#/" class="active">Home</a>
+		</li>	
+		<li>
+			<a href="#about">About</a>
+		</li>	
+		<li>
+			<a href="#contact">Contact</a>
+		</li>
+	</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="cleared reset-box"></div>
