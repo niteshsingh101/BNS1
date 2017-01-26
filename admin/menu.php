@@ -62,7 +62,7 @@ ddsmoothmenu.init({
 
 
 
-   <!--<ul>
+   <ul>
 
 
 
@@ -70,7 +70,7 @@ ddsmoothmenu.init({
 
 
 
-    <li><a href="eyes-color-list.php" >Eyes Color</a></li>
+    <!--<li><a href="eyes-color-list.php" >Eyes Color</a></li>
 
 
 
@@ -97,8 +97,8 @@ ddsmoothmenu.init({
 <li><a href="state-list.php" >State</a></li>
 
     <li><a href="town-list.php" >City</a></li>
-
-    </ul>-->
+-->
+    </ul>
 
   </li>
 
@@ -113,11 +113,9 @@ ddsmoothmenu.init({
 
 
 <li><a href="member-list.php" <?php if(basename($_SERVER['SCRIPT_NAME'])=='member-list.php' || basename($_SERVER['SCRIPT_NAME'])=='member-list.php'){?>class="active" <?php } ?>> Member's</a></li>
-
-<li><a href="add-list.php" <?php if(basename($_SERVER['SCRIPT_NAME'])=='add-list.php' || basename($_SERVER['SCRIPT_NAME'])=='add-list.php'){?>class="active" <?php } ?>> Add's</a></li>
-
 <li><a href="price-list.php" <?php if(basename($_SERVER['SCRIPT_NAME'])=='price-list.php' || basename($_SERVER['SCRIPT_NAME'])=='price-list.php'){?>class="active" <?php } ?>> Membership price</a></li><?php */?>
 
+<li><a href="add-list.php" <?php if(basename($_SERVER['SCRIPT_NAME'])=='add-list.php' || basename($_SERVER['SCRIPT_NAME'])=='add-list.php'){?>class="active" <?php } ?>> Add's</a></li>
 
 <li><a href="#" <?php if(basename($_SERVER['SCRIPT_NAME'])=='subscriber-list.php' || basename($_SERVER['SCRIPT_NAME'])=='newsletter_template-list.php' || basename($_SERVER['SCRIPT_NAME'])=='send_newsletter.php'){?>class="active" <?php } ?>> News Letter</a>
 

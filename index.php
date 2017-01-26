@@ -26,6 +26,8 @@
 <script src="javascript/about.js"></script>
 <script src="javascript/route.js"></script>
 <script src="javascript/controllers.js"></script>
+<script src="javascript/registration.js"></script>
+<script src="javascript/user-registration.js"></script>
 
 </body>
 </html>
